@@ -1,0 +1,5 @@
+from gtts import gTTS
+import os
+tts = gTTS(text='Hello.. develober ', lang='en')
+tts.save("Hello.mp3")
+os.system("Hello.mp3")
